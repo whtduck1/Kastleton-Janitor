@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Header from './components/header';
+import Footer from './components/footer';
+import Home from './components/home';
+import About from './components/about';
+import Pricing from './components/pricing';
+import Contact from './components/contact';
+console.log(Header); // Powinno zwrócić funkcję
+console.log(Footer); // Powinno zwrócić funkcję
+console.log(Home);   // Powinno zwrócić funkcję
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    return(
+    <>
+    <Header />
+    <main>
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="pricing">
+        <Pricing />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+    </main>
+    <Footer />
+  </>
   );
 }
 
