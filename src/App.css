@@ -1,7 +1,30 @@
-main{
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 40px auto;
+  height: 100vh;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+section:nth-child(even) {
+  background-color: #f9f9f9;
+  padding:0.4px;
+}
+
+section:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+section h2 {
+  font-size: clamp(28px, 5vw, 48px);
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: clamp(16px, 2.5vw, 20px);
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
 }

@@ -67,7 +67,12 @@
   @media screen and (max-width: 768px) {
     .menu-toggle {
       display: block;
-      margin-right: 20px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      margin-top: 24px;
+      padding: 0; 
     }
   
     nav {
@@ -93,6 +98,7 @@
       display: flex;
       transform: translateX(0);
       opacity: 1;
+      vertical-align: middle;
     }
   
     nav ul {

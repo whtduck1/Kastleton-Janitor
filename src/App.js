@@ -6,9 +6,7 @@ import Home from './components/home';
 import About from './components/about';
 import Pricing from './components/pricing';
 import Contact from './components/contact';
-console.log(Header); // Powinno zwrócić funkcję
-console.log(Footer); // Powinno zwrócić funkcję
-console.log(Home);   // Powinno zwrócić funkcję
+
 function App() {
     return(
     <>
