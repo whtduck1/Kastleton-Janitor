@@ -2,6 +2,11 @@ import React from "react";
 import "../styles/card.css";
 
 function Card() {
+
+  const joinServer = () => {
+    window.open("https://discord.gg/dVZZWrk2fU", "_blank");
+  };
+
   return (
     <div className="block-section">
       <div className="block-card">
@@ -11,9 +16,12 @@ function Card() {
           <li>Made lorem ipsum calar bomba</li>
           <li>Perfect for management</li>
         </ul>
-        <button className="select-button">SELECT</button>
+        <button className="select-button" onClick={joinServer}>SELECT</button>
       </div>
-      <div className="block-card">
+
+      {/* #TODO FUTURE */}
+
+      {/* <div className="block-card">
         <h2>Katleton Premium Packet</h2>
         <p><strong>$15 per month</strong></p>
         <ul>
@@ -21,7 +29,7 @@ function Card() {
           <li>Natural look</li>
         </ul>
         <button className="select-button">SELECT</button>
-      </div>
+      </div> */}
     </div>
   );
 }
