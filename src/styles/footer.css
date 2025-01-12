@@ -1,0 +1,27 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: #b3b3b3;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-text {
+    margin: 5px 0;
+    font-size: clamp(14px, 2vw, 16px);
+}
+
+.footer-author {
+    margin: 5px 0;
+    font-size: clamp(14px, 2vw, 16px);
+}
+
+.footer-highlight {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}

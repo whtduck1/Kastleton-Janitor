@@ -1,0 +1,23 @@
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 20px;
+}
+
+.social-container a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 3.5rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-container a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+.social-container a:active {
+    transform: scale(0.9);
+}

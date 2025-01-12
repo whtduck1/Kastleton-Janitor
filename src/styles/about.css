@@ -33,6 +33,6 @@
     height: 200px;
     margin-top: 30px;
     border-radius: 50%;
-    background: url("https://mighty.tools/mockmind-api/content/human/80.jpg") center/cover no-repeat;
+    background: url('../assets/imgs/KastletonJanitor.jpg') center/cover no-repeat;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
