@@ -9,6 +9,7 @@
     color: #ffffff;
     text-align: center;
     box-sizing: border-box;
+    z-index: 80;
   }
   
   .home-container h1 {
